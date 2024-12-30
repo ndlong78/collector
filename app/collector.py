@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from app import db
+from app import db, app  # Import app từ app/__init__.py
 from app.models import Event
 from datetime import datetime
 import logging
