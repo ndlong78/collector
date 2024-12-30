@@ -22,7 +22,3 @@ def save_data(data):
         db.session.add(event)
     db.session.commit()
     print(f"Saved {len(data)} events to the database")
-
-url = 'https://www.thoigian.com.vn/'
-data = fetch_data(url)
-save_data(data)
